@@ -1,0 +1,81 @@
+// Variables
+$primary: #4e54c8;
+$secondary: #8f94fb;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Global styles
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: darken($primary, 10%);
+  }
+}
+
+.btn-primary {
+  background: linear-gradient(to right, $primary, $secondary);
+  border: none;
+  
+  &:hover {
+    background: linear-gradient(to right, darken($primary, 5%), darken($secondary, 5%));
+  }
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+// Mobile optimization
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+}
+
+// Animations
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
