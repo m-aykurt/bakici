@@ -58,7 +58,8 @@ export default function Home() {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Searching for', searchType, 'bakıcısı in', location);
+    // Redirect to bakicilar page with search parameters
+    window.location.href = `/bakicilar?type=${searchType}&location=${encodeURIComponent(location)}`;
   };
 
   return (

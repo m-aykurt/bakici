@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
           </ul>
           
           <div className="d-flex">
-            <Link href="/arama" className="btn btn-outline-primary me-2">
+            <Link href="/bakicilar" className="btn btn-outline-primary me-2">
               <FaSearch className="me-1" /> Bakıcı Ara
             </Link>
             <Link href="/giris" className="btn btn-primary">
