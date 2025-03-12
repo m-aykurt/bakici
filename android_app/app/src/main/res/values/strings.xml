@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bakıcı Platform</string>
+    
+    <!-- Main Activity -->
+    <string name="search_hint">Şehir veya ilçe</string>
+    <string name="search_button">Ara</string>
+    <string name="how_it_works_title">Nasıl Çalışır?</string>
+    <string name="how_it_works_subtitle">Sadece üç adımda ihtiyacınıza uygun bakıcıya ulaşın</string>
+    <string name="step_1_title">1. Bakıcı Arayın</string>
+    <string name="step_1_desc">İhtiyacınıza uygun bakıcıları konum ve referanslarına göre filtreleyin ve bulun.</string>
+    <string name="step_2_title">2. Profilleri İnceleyin</string>
+    <string name="step_2_desc">Bakıcıların detaylı profillerini, referanslarını ve diğer ailelerin yorumlarını inceleyin.</string>
+    <string name="step_3_title">3. İletişime Geçin</string>
+    <string name="step_3_desc">Seçtiğiniz bakıcıyla direkt iletişime geçin ve hizmeti başlatın.</string>
+    <string name="more_info">Daha Fazla Bilgi Alın</string>
+    <string name="featured_caregivers">Öne Çıkan Bakıcılar</string>
+    <string name="view_all">Tümünü Gör</string>
+    <string name="view_profile">Profili Gör</string>
+    <string name="become_caregiver_title">Siz de bakıcı olmak ister misiniz?</string>
+    <string name="become_caregiver_subtitle">Esnek çalışma saatleri ve rekabetçi ücretlerle binlerce aileye hizmet verin.</string>
+    <string name="apply_now">Hemen Başvurun</string>
+    
+    <!-- Caregiver Types -->
+    <string-array name="caregiver_types">
+        <item>Bebek Bakıcısı</item>
+        <item>Yaşlı Bakıcısı</item>
+        <item>Hasta Bakıcısı</item>
+        <item>Engelli Bakıcısı</item>
+    </string-array>
+</resources>
